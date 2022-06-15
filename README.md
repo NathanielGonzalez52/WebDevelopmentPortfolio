@@ -2,9 +2,9 @@
 This site serves as a portfolio for my web development projects. 
 My HomePage Site was made using HTML5 and CSS. It provides links to my other projects.
 
-The "Simon Says" webpage was made using HTML5, CSS, and JQuery. The game begins when the user presses "A". The screen has four different colored buttons on the screen. Once the game starts, the text at the top will change to indicate what level the player is on. A random button will flash and the player will be given a chance to click on the button that flashed. If the player is correct, the computer will select the previous button and select a new one creating a sequence. THe more questions the player gets correct, the harder the game will be. The player will have to follow these sequences until they are no longer able to do so. 
+The "Simon Says" webpage was made using HTML5, CSS, and JQuery. The game begins when the user presses "A". The screen has four different colored buttons on the screen. Once the game starts, the text at the top will change to indicate what level the player is on. A random button will flash and the player will be given a chance to click on the button that flashed. If the player is correct, the computer will select the previous button and select a new one. The player then has to select the same buttons in the same order. The more questions the player gets correct, the more they will have to memorize.
 
-The "Tinder for Dogs" website was made using HTML5, CSS, and Bootstrap5. It serves as an advertisement for a fictional app with fictional reviews to illustrate success. 
+The "Tinder for Dogs" website was made using HTML5, CSS, and Bootstrap5. It serves as an advertisement for a fictional app with constructed reviews to illustrate popularity. 
 
 The "Dice Roll" website was made using HTML5, CSS, and JavaScript. A new dice roll is displayed when the page is refreshed. Each die represents a player and with each refresh the text at the top will reveal which die displays a higher number. If they are the same, the text will declare a tie. 
 
