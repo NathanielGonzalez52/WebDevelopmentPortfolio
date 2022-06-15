@@ -72,6 +72,20 @@ p {
 
 /* My Websites */
 
+.simon-says {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+  display: float;
+}
+
+.game {
+  width: 20%;
+  float: right;
+  padding: 30px;
+}
+
 .tindog {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -98,6 +112,10 @@ p {
   width: 20%;
   float: right;
   padding: 30px;
+}
+
+.dice-title {
+  text-align: right;
 }
 
 .drum {
