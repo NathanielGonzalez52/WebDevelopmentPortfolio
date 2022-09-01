@@ -1,0 +1,119 @@
+body {
+  background-color: #ED1D24;
+  font-family: 'Bangers', cursive;
+  padding-left: 2.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+/* TEXT COLOR */
+.txt {
+  color: #FFFFFF;
+  font-family: 'Bangers', cursive;
+}
+/* MARVEL BRAND */
+  /* TRIVIA TEXT COLOR/FORMATTING */
+
+/* .question-title {
+  font-size: 3rem;
+
+} */
+
+/* Declares question number */
+.question-title {
+  padding-bottom: 1.5rem;
+}
+/* Div for the question */
+.question-container {
+  padding-bottom: 2rem;
+}
+/* Style for title */
+#title {
+  font-size: 3rem;
+}
+/* Style for question */
+#question {
+  font-size:2.5rem;
+}
+
+/* BUTTONS  */
+
+/* Style for button */
+.option {
+  background-color: #ED1D24;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 12px;
+  font-size: 2.5rem;
+}
+/* Hover effect for buttons */
+.option:hover {
+  font-size: 2.7rem;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+  /* margin: 5rem; */
+}
+
+.first {
+  position: absolute;
+  white-space: normal;
+  max-width: 20%;
+}
+
+
+.second {
+  position: absolute;
+  top: 25rem;
+  white-space: normal;
+  max-width: 20%;
+}
+
+
+.third {
+  position: absolute;
+  right: 20rem;
+  white-space: normal;
+  max-width: 30%;
+}
+
+.fourth {
+  position: absolute;
+  top: 25rem;
+  right: 20rem;
+  white-space: normal;
+  max-width: 20%;
+  /* margin-top:6.5rem; */
+}
+
+.next {
+  position: absolute;
+  right: 25rem;
+  top: 35rem;
+}
+
+.previous {
+  position: absolute;
+  left: 18rem;
+  top: 35rem;
+}
+
+.submit {
+  background-color: #ED1D24;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 12px;
+  position: absolute;
+  left: 38rem;
+  top: 40rem;
+  font-size: 3.5rem;
+  text-decoration: none;
+}
+
+.submit:hover {
+  font-size: 3.7rem;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);
+}
