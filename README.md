@@ -10,3 +10,4 @@ The "Dice Roll" website was made using HTML5, CSS, and JavaScript. A new dice ro
 
 The "Drumset" website was made using HTML5, CSS, and JavaScript. The site displays 8 images with a picture of a percussive instrument and a letter. Each letter corresponds to a key. If the image is clicked or if the corresponding key is pressed, the image will play a sound.
 
+The Marvel Quiz website was made using HTML, CSS, and JavaScript. The site displays ten questions with four different options, but shuffles the questions with each refresh, so that the quiz is different every time. The questions are formatted in JSON for convenient access. Furthermore, the quiz allows for changing previous answers. It is currently a work in progress, but aims to create a feature that allows for two or more people to compete against one another. 
