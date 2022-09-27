@@ -1,0 +1,29 @@
+body {
+  background-color: #ED1D24;
+  font-family: 'Bangers', cursive;
+  padding-left: 2.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.playerGreeting {
+  text-align: center;
+  margin-top: 10rem;
+  font-weight: bold;
+  line-height: 4rem;
+  font-size: 1.5rem;
+}
+/* TEXT COLOR */
+.txt {
+  color: #FFFFFF;
+  font-family: 'Bangers', cursive;
+}
+
+.winner {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-weight: bold;
+  line-height: 6rem;
+  font-size: 3rem;
+  color: #D3AF37
+}

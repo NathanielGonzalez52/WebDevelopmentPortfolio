@@ -1,0 +1,47 @@
+body {
+  background-color: #ED1D24;
+  font-family: 'Bangers', cursive;
+  padding-left: 2.5rem;
+  margin-left: 25rem;
+  margin-right: 15rem;
+  margin-top: 10rem;
+}
+
+.title {
+  text-decoration: none;
+  color: inherit;
+}
+
+.player-one {
+  padding-bottom: 2rem;
+}
+
+.player-two {
+  padding-bottom: 2rem;
+}
+
+.txt {
+  color: #FFFFFF;
+  font-family: 'Bangers', cursive;
+  font-weight: bold;
+}
+
+.confirm {
+  background-color: #FFFFFF;
+  color: #CC0000;
+  border-color: #D3AF37;
+  border-radius: 12px;
+  padding: 0.3rem 0.3rem;
+  text-align: center;
+  margin-left: 12rem;
+}
+
+.confirm:hover {
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+
+h1 {
+  color: #FFFFFF;
+}

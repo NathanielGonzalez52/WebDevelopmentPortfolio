@@ -1,0 +1,164 @@
+body {
+  background-color: #ED1D24;
+  font-family: 'Bangers', cursive;
+  padding-left: 2.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.title {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* TEXT COLOR */
+.txt {
+  color: #FFFFFF;
+  font-family: 'Bangers', cursive;
+}
+/* MARVEL BRAND */
+  /* TRIVIA TEXT COLOR/FORMATTING */
+
+/* .question-title {
+  font-size: 3rem;
+
+} */
+
+/* Declares question number */
+.question-title {
+  padding-bottom: 1.5rem;
+}
+/* Div for the question */
+.question-container {
+  padding-bottom: 2rem;
+}
+
+/* .marvel-pics {
+  padding-bottom: 100rem;
+  display: block;
+} */
+
+.ques-pics {
+  width: 37%;
+  padding-top: 1.5rem;
+  position: absolute;
+  left: 28rem;
+  top: 17.5rem;
+  max-height: 70%;
+}
+/* Style for title */
+#title {
+  font-size: 3rem;
+}
+/* Style for question */
+#question {
+  font-size:2.5rem;
+}
+
+/* BUTTONS  */
+
+/* Style for button */
+.option {
+  background-color: #ED1D24;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 12px;
+  font-size: 2.5rem;
+}
+/* Hover effect for buttons */
+.option:hover {
+  font-size: 2.7rem;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.first {
+  position: absolute;
+  white-space: normal;
+  max-width: 40%;
+  top: 42rem;
+}
+
+
+.second {
+  position: absolute;
+  top: 47rem;
+  white-space: normal;
+  max-width: 40%;
+}
+
+
+.third {
+  position: absolute;
+  right: 20rem;
+  top: 42rem;
+  white-space: normal;
+  max-width: 40%;
+}
+
+.fourth {
+  position: absolute;
+  top: 47rem;
+  right: 20rem;
+  white-space: normal;
+  max-width: 40%;
+  /* margin-top:6.5rem; */
+}
+
+
+.next {
+  position: absolute;
+  right: 14rem;
+  top: 25rem;
+}
+
+.previous {
+  position: absolute;
+  right: 75rem;
+  top: 25rem;
+}
+
+.submit {
+  background-color: #ED1D24;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 12px;
+  position: absolute;
+  left: 43rem;
+  top: 50rem;
+  font-size: 3.5rem;
+  text-decoration: none;
+}
+.submit:hover {
+  font-size: 3.7rem;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.game {
+  visibility: hidden;
+}
+
+.player-greeting {
+  position: relative;
+  top: 15rem;
+  left: 15rem;
+}
+
+.greeting {
+  background-color: #ED1D24;
+  border-radius: 8px;
+  font-size: 2rem;
+  border-color: #FFFFFF;
+  position: relative;
+  left: 30rem;
+  top: 18rem;
+}
+
+.greeting:hover {
+  cursor: pointer;
+  font-size: 2.2rem;
+  /* position: absolute; */
+}

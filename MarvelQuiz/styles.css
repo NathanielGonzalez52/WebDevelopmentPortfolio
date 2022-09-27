@@ -6,6 +6,11 @@ body {
   margin-right: 15rem;
 }
 
+.title {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* TEXT COLOR */
 .txt {
   color: #FFFFFF;
@@ -26,6 +31,19 @@ body {
 /* Div for the question */
 .question-container {
   padding-bottom: 2rem;
+}
+
+/* .marvel-pics {
+  padding-bottom: 100rem;
+  display: block;
+} */
+
+.ques-pics {
+  width: 38%;
+  padding-bottom: 1.5rem;
+  position: absolute;
+  left: 28rem;
+  max-height: 70%;
 }
 /* Style for title */
 #title {
@@ -51,53 +69,53 @@ body {
   font-size: 2.7rem;
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);
-}
-
-.btn {
-  /* margin: 5rem; */
+  cursor: pointer;
 }
 
 .first {
   position: absolute;
   white-space: normal;
-  max-width: 20%;
+  max-width: 40%;
+  top: 40rem;
 }
 
 
 .second {
   position: absolute;
-  top: 25rem;
+  top: 45rem;
   white-space: normal;
-  max-width: 20%;
+  max-width: 40%;
 }
 
 
 .third {
   position: absolute;
   right: 20rem;
+  top: 40rem;
   white-space: normal;
-  max-width: 30%;
+  max-width: 40%;
 }
 
 .fourth {
   position: absolute;
-  top: 25rem;
+  top: 45rem;
   right: 20rem;
   white-space: normal;
-  max-width: 20%;
+  max-width: 40%;
   /* margin-top:6.5rem; */
 }
 
+
 .next {
   position: absolute;
-  right: 25rem;
-  top: 35rem;
+  right: 14rem;
+  top: 25rem;
 }
 
 .previous {
   position: absolute;
-  left: 18rem;
-  top: 35rem;
+  right: 75rem;
+  top: 25rem;
 }
 
 .submit {
@@ -106,14 +124,14 @@ body {
   border-style: solid;
   border-radius: 12px;
   position: absolute;
-  left: 38rem;
-  top: 40rem;
+  left: 43rem;
+  top: 50rem;
   font-size: 3.5rem;
   text-decoration: none;
 }
-
 .submit:hover {
   font-size: 3.7rem;
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
 }

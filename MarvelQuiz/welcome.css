@@ -1,0 +1,80 @@
+body {
+  background-color: #ED1D24;
+  font-family: 'Bangers', cursive;
+  padding-left: 2.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  height: 100%;
+}
+
+.txt {
+    font-family: 'Bangers', cursive;
+    color: #FFFFFF;
+    font-weight: bold;
+
+}
+
+h1 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 4.5rem;
+}
+
+h2 {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.one {
+  background-color: white;
+  color: #CC0000;
+  border-radius: 12px;
+  padding: 5rem 5rem;
+  text-align: center;
+  max-width: 30%
+}
+
+.one:hover {
+  max-width: 32%;
+  font-size: 0.9rem;
+  background-color: #D3AF37;
+  cursor: pointer;
+}
+
+.one-player {
+  width: 60%;
+  padding-top: 1rem;
+}
+
+.two-players {
+  width: 60%;
+  padding-top: 1rem;
+}
+
+.two {
+  background-color: white;
+  color: #CC0000;
+  border-radius: 12px;
+  padding: 5rem 5rem;
+  text-align: center;
+  max-width: 30%;
+  cursor: pointer;
+  /* max-height: 40%; */
+}
+
+
+.two:hover {
+  max-width: 32%;
+  font-size: 0.9rem;
+  background-color: #D3AF37
+}
+
+.btn-group {
+  text-align: center;
+}
+
+.box {
+  height: 100%;
+  width: 10%;
+  background-color: #FFFFFF;
+}
