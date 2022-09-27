@@ -72,7 +72,7 @@ p {
 
 /* My Websites */
 
-.simon-says {
+.marvel-quiz {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -80,9 +80,23 @@ p {
   display: float;
 }
 
+.simon-says {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+  display: float;
+}
+
 .game {
   width: 20%;
   float: right;
+  padding: 30px;
+}
+
+.iron-man {
+  width: 20%;
+  float: left;
   padding: 30px;
 }
 
@@ -103,7 +117,7 @@ p {
 .dice-rolls {
   width: 50%;
   margin: 100px auto 100px auto;
-  text-align: left;
+  text-align: right;
   line-height: 2;
   display: float;
 }
