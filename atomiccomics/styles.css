@@ -1,0 +1,266 @@
+body {
+  background-attachment: fixed;
+  font-family: "Luckiest Guy", cursive;
+  background-color: #369dfd;
+}
+
+/* sections */
+
+.color {
+  /* background-color: #FFFFFF; */
+  /* color: #EDB912; */
+}
+
+.header {
+  padding-left: 2.5rem;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  /* affects color title */
+  color: #FFFFFF;
+  /* font-family: "Monoton", cursive; */
+}
+
+.navbar-brand:hover {
+  color: #FFFFFF;
+}
+
+.nav-item {
+  /* padding-left: 6%; */
+  padding-left: 10rem;
+}
+
+.nav-link {
+  /* color: black; */
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+/* .nav-item .nav-link {
+  background-color: #0080FF;
+  color: red;
+} */
+
+/* .special{
+  color: red;
+} */
+
+.navbar-custom {
+  background-color: #369dfd;
+  font-size: 1.5rem;
+}
+
+.store-info {
+  color: #FFFFFF;
+  width: 100%;
+  background-color: #369dfd;
+  line-height: 0.8;
+  /* width: 25px;
+  height: 25px; */
+}
+
+.square {
+  text-align: center;
+  width: 200px;
+  margin-left: 2.5rem;
+  /* background-color: red; */
+}
+
+.address {
+  padding-left: 3.2rem;
+}
+
+
+/* ----------------------HOOK ------------------------*/
+
+.one-pic-wheel {
+  width: 100%;
+  padding-top: 0.5%;
+  height:450px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url('images/comics.jpg');
+  background-size: 50%;
+}
+
+/*------------------- STORE INFO -----------------------*/
+
+.info-section {
+  width:100%;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  background-color: #369dfd;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  /* background-color: blue; */
+}
+
+.info {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 7.5%;
+  padding-top: 1.3%;
+  font-weight: lighter;
+  /* color: gray; */
+  color: #FFFFFF;
+  /* background-color: red; */
+}
+
+.info-title {
+  /* color: black; */
+  color: #FFFFFF;
+}
+
+.link {
+  color: #FFFFFF;
+  text-decoration: none;
+  /* color: gray; */
+}
+
+
+/****************************************************** ABOUT US *******************************************/
+
+.about {
+  color: #369dfd;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding-top: 1.5rem;
+  overflow: hidden;
+  padding-bottom: 2.8rem;
+}
+
+.ac-logo {
+  width: 15%;
+}
+
+.pic-g {
+  padding: 2px;
+  width: 30%;
+  /* background-color: white; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.greeting {
+  padding: 0 8% 0 8%;
+  font-size: 1.8rem;
+}
+
+.greeting-header {
+  color: #0270d7;
+  font-weight: bold;
+}
+
+/********************************************* EVENTS **********************************/
+
+.events {
+  padding-top: 1.5rem;
+  background-color: #369dfd;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#carouselExampleIndicators {
+  padding-top: 1rem;
+}
+
+.events-h1 {
+  padding-top: 1rem;
+}
+
+.carousel-item {
+  padding-bottom: 0.5rem;
+}
+
+/* #carouselExampleIndicators {
+  padding-bottom: 5rem;
+} */
+
+.pic {
+  object-fit: fill;
+  width: 40rem;
+  height: 33rem;
+  padding: 2px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event-details {
+  padding-bottom: 2rem;
+  width:100%;
+  /* background-size: cover; */
+  display: flex;
+  flex: 1;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.cal {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 1.3%;
+  font-weight: lighter;
+  line-height: 1
+}
+
+
+/************************************ FOOTER ********************************/
+.end {
+  background-color: #FFFFFF;
+  width:100%;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.close {
+  width: 100%;
+  color: #369dfd;
+}
+
+footer {
+  color: #369dfd;
+  background-color: #FFFFFF;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.social-f {
+  text-align: center;
+}
+
+.foot {
+  color: #369dfd;
+  padding-left: 2rem;
+  /* background-color: red; */
+}
+
+.insta {
+  vertical-align: super;
+}
+
+.detes {
+  text-align: center;
+}
+
+.contact-us {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+
+.bot {
+  /* background-color: red; */
+  width: 50%;
+  color: #6ab6fe;
+  line-height: 0.2;
+  font-size: 0.85rem;
+}
