@@ -146,6 +146,20 @@ p {
   padding: 30px;
 }
 
+.atomic {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+  line-height: 2;
+  display: float;
+}
+
+.atomic-comics {
+  width: 20%;
+  float: right;
+  padding: 30px;
+}
+
 /* Contact Details and Closing Statements */
 
 .btn {
