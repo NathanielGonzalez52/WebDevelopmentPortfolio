@@ -1,5 +1,4 @@
-
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 950px) {
 
   body {
     font-size: 1.3rem;
@@ -40,11 +39,23 @@
 
 }
 
-
 body {
   background-attachment: fixed;
   font-family: "Luckiest Guy", cursive;
   background-color: #0987FD;
+}
+
+.nav-link {
+  color: #FFFFFF;
+}
+
+.nav-link {
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  transition: 0.4s;
+  color: #acacac;
 }
 
 .color {
@@ -56,7 +67,6 @@ body {
   background-color: #FFFFFF;
   color: #0987FD;
 }
-/* lighter blue color:#369dfd */
 
 /* sections */
 
@@ -66,8 +76,6 @@ body {
   font-size: 2rem;
   /* affects color title */
   color: #FFFFFF;
-  ;
-  /* font-family: "Monoton", cursive; */
 }
 
 .navbar-brand:hover {
@@ -78,15 +86,6 @@ body {
 .nav-item {
   /* padding-left: 6%; */
   padding-left: 10rem;
-}
-
-.nav-link {
-  transition: 0.4s;
-}
-
-.nav-link:hover {
-
-  transition: 0.4s;
 }
 
 .navbar-custom {
@@ -154,10 +153,12 @@ body {
 .link {
   text-decoration: none;
   color: #FFFFFF;
+  transition: 0.4s;
 }
 
 .link:hover {
-  color: #eaeaea;
+  transition: 0.4s;
+  color: #acacac;
 }
 
 
