@@ -1,44 +1,3 @@
-@media screen and (max-width: 950px) {
-
-  body {
-    font-size: 1.3rem;
-  }
-
-  .ac-logo {
-    width: 40%;
-  }
-
-  .event-details {
-    padding: 0rem 1.5rem 0rem 1.5rem;
-    display: block;
-  }
-
-  .cal {
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    padding-top: 1.3%;
-    /* font-weight: lighter; */
-    line-height: 1;
-  }
-
-
-  .pic-g {
-    width: 75%;
-  }
-
-  .one-pic-wheel {
-    width: 100%;
-    padding-top: 0.5%;
-    height:480px;
-    background: url('images/new_comics.jpg');
-    background-size: 100%;
-    background-size: cover;
-    /* background-repeat: no-repeat; */
-  }
-
-}
-
 body {
   background-attachment: fixed;
   font-family: "Luckiest Guy", cursive;
@@ -301,4 +260,45 @@ footer {
   color: #6ab6fe;
   line-height: 0.2;
   font-size: 0.85rem;
+}
+
+@media screen and (max-width: 850px) {
+
+  body {
+    font-size: 1.3rem;
+  }
+
+  .ac-logo {
+    width: 40%;
+  }
+
+  .event-details {
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    display: block;
+  }
+
+  .cal {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1.3%;
+    /* font-weight: lighter; */
+    line-height: 1;
+  }
+
+
+  .pic-g {
+    width: 75%;
+  }
+
+  .one-pic-wheel {
+    width: 100%;
+    padding-top: 0.5%;
+    height:480px;
+    background: url('images/new_comics.jpg');
+    background-size: 100%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+  }
+
 }
