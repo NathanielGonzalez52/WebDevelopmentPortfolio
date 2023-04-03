@@ -53,6 +53,7 @@ body {
 }
 
 .store-info {
+  padding-top: 0.2rem;
   width: 100%;
   line-height: 0.8;
 }
