@@ -301,5 +301,11 @@ footer {
     background-size: cover;
     /* background-repeat: no-repeat; */
   }
+  
+    footer {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 
 }
