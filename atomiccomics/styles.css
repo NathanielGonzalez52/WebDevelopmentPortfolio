@@ -208,26 +208,12 @@ body {
 
 
 /************************************ FOOTER ********************************/
-.end {
-  background-;
-  width:100%;
-  background-size: cover;
-  display: flex;
-  flex: 1;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
-}
-
-.close {
-  width: 100%;
-  color: #0987FD;
-}
 
 footer {
   color: #0987FD;
-  background-;
   padding-top: 3.6rem;
   padding-bottom: 2rem;
+  text-align: center;
 }
 
 .social-f {
@@ -263,14 +249,14 @@ footer {
   font-size: 0.85rem;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 900px) {
 
   body {
     font-size: 1.3rem;
   }
 
   .ac-logo {
-    width: 40%;
+    width: 17%;
   }
 
   .event-details {
@@ -301,11 +287,18 @@ footer {
     background-size: cover;
     /* background-repeat: no-repeat; */
   }
-  
-    footer {
-    width: 100%;
+
+  .find-us {
     display: block;
-    text-align: center;
+  }
+
+  .bot {
+    width: 100%;
+    padding: 0.35rem 0 0.35rem 0;
+  }
+
+  .social-f {
+    padding-bottom: 2rem; 
   }
 
 }
