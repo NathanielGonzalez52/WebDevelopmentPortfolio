@@ -147,6 +147,11 @@ body {
   font-size: 1.8rem;
 }
 
+.greeting-mobile {
+  visibility: hidden;
+  position: absolute;
+}
+
 .greeting-header {
   color: #0270d7;
   font-family: "Bungee Shade", cursive;
@@ -155,7 +160,7 @@ body {
 /********************************************* EVENTS **********************************/
 
 .events {
-  padding-top: 1.5rem;
+  padding-top: 4rem;
   background-color: #0987FD;
   width: 100%;
   text-align: center;
@@ -256,11 +261,27 @@ footer {
   }
 
   .ac-logo {
-    width: 17%;
+    width: 32%;
+  }
+
+  .greeting {
+    position: absolute;
+    visibility: collapse;
+  }
+
+  .greeting-mobile {
+    position: inherit;
+    padding: 0.7rem 8% 0.2rem 8%;
+    font-size: 1.8rem;
+    visibility: visible;
+  }
+
+  .mobile-2 {
+    padding-top: 2rem;
   }
 
   .event-details {
-    padding: 0rem 1.5rem 0rem 1.5rem;
+    padding: 0rem 1.5rem 2.8rem 1.5rem;
     display: block;
   }
 
@@ -276,6 +297,7 @@ footer {
 
   .pic-g {
     width: 75%;
+    padding: 0.4rem;
   }
 
   .one-pic-wheel {
@@ -298,7 +320,7 @@ footer {
   }
 
   .social-f {
-    padding-bottom: 2rem; 
+    padding-bottom: 2rem;
   }
 
 }
