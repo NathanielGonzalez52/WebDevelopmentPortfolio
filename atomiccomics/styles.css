@@ -265,10 +265,10 @@ footer {
     font-size: 1.3rem;
   }
 
-
-
   .info-section {
     font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .store-info {
