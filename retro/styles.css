@@ -1,0 +1,403 @@
+/* #3fbf02_ Darker Green*/
+
+@font-face {
+  font-family: "retro";
+  src: url("Retro Gaming.ttf");
+}
+
+@font-face {
+  font-family: "ganon";
+  src: url("ganon.ttf")
+}
+
+@font-face{
+font-family: "retroTitle";
+src: url("retroTitle.ttf")
+}
+
+body {
+  background-attachment: fixed;
+  font-family: "ganon";
+  /* font-family: "Press Start 2P", cursive; */
+  background-color: #3fbf02;
+}
+
+
+.nav-link {
+  color: #FFFFFF;
+}
+
+.nav-link {
+  transition: 0.4s;
+}
+
+.nav-link:hover {
+  transition: 0.4s;
+  color: #acacac;
+}
+
+.color {
+  background-color: #3fbf02;
+  color: #FFFFFF
+}
+
+.white {
+  background-color: #FFFFFF;
+  color: #3fbf02;
+}
+
+/* sections */
+
+.header {
+  padding-left: 3.3rem;
+  padding-top: 0.5rem;
+  font-size: 3.0rem;
+  /* affects color title */
+  color: #FFFFFF;
+}
+
+.navbar-brand:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.nav-item {
+  /* padding-left: 6%; */
+  padding-left: 10rem;
+}
+
+.navbar-custom {
+  background-color: #3fbf02;
+  font-size: 2.0rem;
+}
+
+.store-info {
+  font-size: 1.3rem;
+  padding-top: 0.2rem;
+  width: 100%;
+}
+
+.store-info-mobile {
+  visibility: hidden;
+  position: absolute;
+}
+
+.square {
+  text-align: center;
+  width: 200px;
+  margin-left: 2.5rem;
+
+  /* background-color: red; */
+}
+
+.address {
+  padding-left: 3.2rem;
+  line-height: 0.9;
+}
+
+
+/* ----------------------HOOK ------------------------*/
+.one-pic-wheel {
+  width: 100%;
+  padding-top: 1.0%;
+  height: 440px;
+  /* background: url('images/coolstuff.webp'), url("aisle.webp"), url(); */
+  background: url("images/thefoundingfathers.jpg") center;
+  background-size: 100%;
+  /* background-repeat: no-repeat; */
+}
+
+
+/*------------------- STORE INFO -----------------------*/
+
+.info-section {
+  font-size: 1.2rem;
+  width:100%;
+  background-size: cover;
+  display: flex;
+  flex: 1;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+}
+
+.info {
+  font-size: 1.5rem;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 7.5%;
+  padding-top: 1.3%;
+}
+
+.info-title {
+  font-weight: bold;
+  /* color: black; */
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: 0.4s;
+}
+
+.link:hover {
+  transition: 0.4s;
+  color: #acacac;
+}
+
+
+/****************************************************** ABOUT US *******************************************/
+
+.about {
+  text-align: center;
+  padding-top: 1.5rem;
+  overflow: hidden;
+  padding-bottom: 2.8rem;
+}
+
+.ac-logo {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  width: 6.5%;
+}
+
+.pic-g {
+  padding: 2px;
+  width: 30%;
+  /* background-color: white; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.greeting {
+  padding: 0 8% 0 8%;
+  font-size: 1.8rem;
+}
+
+.greeting-mobile {
+  visibility: hidden;
+  position: absolute;
+}
+
+.greeting-header {
+  padding-bottom: 2rem;
+  color: #50f303;
+  /* font-family: "Bungee Shade", cursive; */
+  font-family: "retro";
+}
+
+/********************************************* EVENTS **********************************/
+
+.events {
+  padding-top: 4rem;
+  background-color: #3fbf02;
+  width: 100%;
+  text-align: center;
+}
+
+#carouselExampleIndicators {
+  padding-top: 1rem;
+}
+
+.events-h1 {
+  padding-top: 1rem;
+  /* text-decoration: underline; */
+}
+
+.carousel-item {
+  padding-bottom: 0.5rem;
+}
+
+/* #carouselExampleIndicators {
+  padding-bottom: 5rem;
+} */
+
+.pic {
+  object-fit: fill;
+  width: 40rem;
+  height: 33rem;
+  padding: 2px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event-header {
+  font-size: 4rem;
+}
+
+.events {
+  padding-bottom: 4.5rem;
+}
+
+.event-details {
+  padding: 0rem 10rem 2rem;
+  /* padding-bottom: 2rem; */
+  width:100%;
+  /* background-size: cover; */
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+
+.cal {
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 1.3%;
+  line-height: 1;
+}
+
+h5 {
+  text-decoration: underline;
+}
+
+/************************************ FOOTER ********************************/
+
+footer {
+  color: #3fbf02;
+  padding-top: 3.6rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.foot {
+  color: #3fbf02;
+  padding-left: 2rem;
+  /* background-color: red; */
+}
+
+.insta {
+
+}
+.ebay {
+
+}
+
+.detes {
+  padding-top: 3rem;
+}
+
+.date {
+  text-align: center;
+
+  font-size: 1.5rem;
+}
+
+.find-us {
+  width: 100%;
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+
+.bot {
+  width: 50%;
+  color: #73fd31;
+  line-height: 0.2;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 900px) {
+
+  body {
+    font-size: 1.0rem;
+  }
+
+  .info-section {
+    font-size: 1rem;
+    padding-right: 21px;
+  }
+
+  .info-title {
+    font-size: 0.90rem;
+  }
+
+  .info {
+    font-size: 0.85rem;
+  }
+
+  .store-info {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .store-info-mobile {
+    visibility: visible;
+    position: inherit;
+    line-height: 1.0rem;
+  }
+
+  .locale {
+    padding-bottom: 0.8rem;
+  }
+
+  .ac-logo {
+    width: 15%;
+  }
+
+
+  .greeting-header {
+    padding-bottom: 0rem;
+  }
+
+  .greeting {
+    position: absolute;
+    visibility: collapse;
+  }
+
+  .greeting-mobile {
+    position: inherit;
+    padding: 0.7rem 8% 0.2rem 8%;
+    font-size: 1.5rem;
+    visibility: visible;
+  }
+
+  .mobile-2 {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+  }
+
+  .event-details {
+    padding: 0rem 1.5rem 2.8rem 1.5rem;
+    display: block;
+  }
+
+  .cal {
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 1.3%;
+    /* font-weight: lighter; */
+    line-height: 1;
+  }
+
+
+  .pic-g {
+    width: 75%;
+    padding: 0.4rem;
+  }
+
+  .one-pic-wheel {
+    width: 100%;
+    padding-top: 0.5%;
+    height: 240px;
+    background-size: 100%;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+  }
+
+  .find-us {
+    display: block;
+  }
+
+  .bot {
+    width: 100%;
+    padding: 0.35rem 0 0.35rem 0;
+  }
+
+
+  .social-f {
+    padding-bottom: 2rem;
+  }
+
+}
