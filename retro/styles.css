@@ -92,7 +92,7 @@ body {
 
 .address {
   padding-left: 3.2rem;
-  line-height: 0.9;
+  line-height: 0.6;
 }
 
 
@@ -324,7 +324,7 @@ footer {
   .store-info-mobile {
     visibility: visible;
     position: inherit;
-    line-height: 1.0rem;
+    line-height: 0.3;
   }
 
   .locale {
