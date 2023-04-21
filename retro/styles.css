@@ -324,7 +324,6 @@ footer {
   .store-info-mobile {
     visibility: visible;
     position: inherit;
-    line-height: 0.3;
   }
 
   .locale {
