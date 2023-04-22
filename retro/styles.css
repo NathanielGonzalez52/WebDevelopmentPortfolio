@@ -130,7 +130,7 @@ body {
 }
 
 .hours {
-  line-height: 0.9;
+  line-height: 0.7;
   }
 
 .info-title {
@@ -315,6 +315,10 @@ footer {
   .info-title {
     font-size: 0.90rem;
   }
+  
+  .hours {
+    line-height:0;
+    }
 
   .info {
     font-size: 0.85rem;
@@ -332,7 +336,7 @@ footer {
   }
 
   .locale {
-
+    line-height: 0;
   }
 
   .ac-logo {
