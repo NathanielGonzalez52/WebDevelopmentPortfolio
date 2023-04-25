@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: "plus";
+  src: url("plus.otf");
+}
+
+@font-face {
   font-family: "ganon";
   src: url("ganon.ttf")
 }
@@ -34,6 +39,10 @@ body {
 .nav-link:hover {
   transition: 0.4s;
   color: #acacac;
+}
+
+.plus-sign {
+  font-family: "plus";
 }
 
 .color {
@@ -257,7 +266,6 @@ footer {
   color: #3fbf02;
   padding-top: 3.6rem;
   padding-bottom: 2rem;
-  text-align: center;
 }
 
 .foot {
@@ -274,12 +282,18 @@ footer {
 }
 
 .detes {
+  display: flex;
+  justify-content: center;
   padding-top: 3rem;
 }
 
-.date {
-  text-align: center;
+.sign {
+  font-size: 1.3rem;
+  font-family: serif;
+}
 
+.date {
+  /* text-align: center; */
   font-size: 1.5rem;
 }
 
@@ -292,7 +306,7 @@ footer {
 
 .bot {
   width: 50%;
-  color: #73fd31;
+  color: #48d902;
   line-height: 0.2;
   font-size: 1.1rem;
 }
@@ -309,11 +323,11 @@ footer {
   }
 
   .info-title {
-    font-size: 0.90rem;
+    font-size: 1.20rem;
   }
 
   .info {
-    font-size: 0.85rem;
+    font-size: 1.10rem;
   }
 
   .store-info {
@@ -324,7 +338,15 @@ footer {
   .store-info-mobile {
     visibility: visible;
     position: inherit;
-    line-height: 1.0rem;
+    line-height: 0.0rem;
+  }
+
+  .hours-title {
+    padding-bottom: 0.8rem;
+  }
+
+  .hours {
+    line-height: 0;
   }
 
   .locale {
@@ -355,6 +377,10 @@ footer {
   .mobile-2 {
     font-size: 1.5rem;
     padding-top: 2rem;
+  }
+
+  .event-header {
+    font-size: 3.5rem;
   }
 
   .event-details {
@@ -395,8 +421,9 @@ footer {
     padding: 0.35rem 0 0.35rem 0;
   }
 
-
   .social-f {
+    display: flex;
+    justify-content: center;
     padding-bottom: 2rem;
   }
 
